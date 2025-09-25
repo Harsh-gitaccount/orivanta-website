@@ -1,0 +1,2717 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0">
+
+    <meta name="description" content="Book Your AI Demo - Orivanta | Ready to automate conversations and scale revenue? Contact us for WhatsApp automation, voice AI, and lead generation solutions. Email: support@orivanta.in | Phone: +91 94734 21755">
+<meta name="keywords" content="book AI demo, WhatsApp automation contact, voice AI consultation, chatbot development inquiry, AI lead generation demo, Orivanta contact">
+<title>Book AI Demo - Orivanta | Automate Conversations & Scale Revenue</title>
+
+    
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- International Phone Input CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/18.2.1/css/intlTelInput.css">
+
+    
+    <!-- Premium Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/images/logo.png">
+    
+    <style>
+        /* ===================================
+           CONTACT PAGE - FIXED CSS
+           Mobile Responsive + No Purple Hover
+           =================================== */
+
+        /* CSS Reset & Base - FIXED */
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+            overflow-x: hidden; /* FIXED: Prevent horizontal scroll */
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-weight: 400;
+            line-height: 1.6;
+            color: rgba(255, 255, 255, 1);
+            background: linear-gradient(135deg, #0c0c0c 0%, #1a1a1a 50%, #0f0f23 100%);
+            overflow-x: hidden; /* FIXED: Prevent horizontal scroll */
+            min-height: 100vh;
+            width: 100%;
+        }
+
+        /* Dark Theme Variables */
+        :root {
+            /* Background Colors */
+            --bg-primary: linear-gradient(135deg, #0c0c0c 0%, #1a1a1a 50%, #0f0f23 100%);
+            --bg-secondary: #1a1a1a;
+            --bg-card: rgba(255, 255, 255, 0.05);
+            --bg-glass: rgba(255, 255, 255, 0.1);
+            
+            /* Text Colors */
+            --text-primary: #ffffff;
+            --text-body: rgba(255, 255, 255, 1);
+            --text-secondary: rgba(255, 255, 255, 0.7);
+            --text-subtle: rgba(255, 255, 255, 0.5);
+            
+            /* Accent Colors */
+            --accent-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --accent-cyan: #00f2fe;
+            --accent-pink: #f5576c;
+            --accent-success: #43e97b;
+            --accent-error: #ff6b6b;
+            
+            /* Single Color Values */
+            --purple-blue: #667eea;
+            --purple-dark: #764ba2;
+            
+            /* Borders & Effects */
+            --border-default: rgba(255, 255, 255, 0.1);
+            --border-focus: rgba(102, 126, 234, 0.5);
+            --border-error: rgba(255, 107, 107, 0.5);
+            --glow-primary: rgba(102, 126, 234, 0.25);
+            --glow-cyan: rgba(0, 242, 254, 0.25);
+            --glow-error: rgba(255, 107, 107, 0.25);
+            
+            /* Typography */
+            --font-primary: 'Inter', sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+            
+            /* FIXED: Mobile-First Spacing */
+            --spacing-xs: 0.5rem;
+            --spacing-sm: 0.75rem;
+            --spacing-md: 1rem;
+            --spacing-lg: 1.5rem;
+            --spacing-xl: 2rem;
+            --spacing-xxl: 2.5rem;
+            --spacing-mega: 3rem;
+            
+            /* Border Radius */
+            --radius-sm: 6px;
+            --radius-md: 8px;
+            --radius-lg: 12px;
+            --radius-xl: 16px;
+            --radius-round: 50%;
+            
+            /* Glass Effects */
+            --glass-bg: rgba(255, 255, 255, 0.1);
+            --glass-border: rgba(255, 255, 255, 0.2);
+            --glass-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+            --glass-blur: blur(10px);
+            
+            /* Shadows */
+            --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.2);
+            --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.3);
+            --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.4);
+            --shadow-xl: 0 16px 64px rgba(0, 0, 0, 0.5);
+            --shadow-glow: 0 0 20px var(--glow-primary);
+            
+            /* Transitions */
+            --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            --transition-slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        /* Desktop Spacing Override */
+        @media (min-width: 768px) {
+            :root {
+                --spacing-sm: 1rem;
+                --spacing-md: 1.5rem;
+                --spacing-lg: 2rem;
+                --spacing-xl: 3rem;
+                --spacing-xxl: 4rem;
+                --spacing-mega: 6rem;
+                --glass-blur: blur(20px);
+                --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+                --shadow-glow: 0 0 40px var(--glow-primary);
+            }
+        }
+
+        /* FIXED Container System */
+        .container {
+            width: 100%;
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        @media (min-width: 576px) {
+            .container {
+                max-width: 540px;
+                padding: 0 1.5rem;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .container {
+                max-width: 720px;
+                padding: 0 2rem;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .container {
+                max-width: 960px;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .container {
+                max-width: 1140px;
+            }
+        }
+
+        @media (min-width: 1400px) {
+            .container {
+                max-width: 1320px;
+            }
+        }
+
+        /* FIXED Glassmorphism - NO PURPLE HOVER */
+        .glass-card {
+            background: var(--glass-bg);
+            backdrop-filter: var(--glass-blur);
+            -webkit-backdrop-filter: var(--glass-blur);
+            border: 1px solid var(--glass-border);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--glass-shadow);
+            /* REMOVED: transition to prevent hover animations */
+        }
+
+        /* COMPLETELY REMOVED: Purple hover effects */
+        .glass-card:hover {
+            /* NO background changes */
+            /* NO border changes */
+            /* NO transforms */
+        }
+
+        /* Navigation Header */
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(12, 12, 12, 0.9);
+            backdrop-filter: var(--glass-blur);
+            border-bottom: 1px solid var(--border-default);
+            z-index: 1000;
+            transition: var(--transition-normal);
+        }
+
+        .scroll-header {
+            background: rgba(12, 12, 12, 0.95);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 70px; /* FIXED: Shorter on mobile */
+        }
+
+        @media (min-width: 768px) {
+            .nav {
+                height: 80px;
+            }
+        }
+
+       .nav__logo {
+    height: 45px;
+    width: auto;
+    max-width: 200px;
+    object-fit: contain;
+    transition: all 0.3s ease; /* Smooth hover effects */
+}
+
+.nav__logo:hover {
+    transform: scale(1.05); /* Slight hover growth */
+}
+
+@media (min-width: 768px) {
+    .nav__logo {
+        height: 52px;
+        max-width: 240px;
+    }
+}
+
+        .nav__menu {
+            position: fixed;
+            top: 0;
+            right: -100%;
+            width: 100%;
+            height: 100vh;
+            background: rgba(12, 12, 12, 0.95);
+            backdrop-filter: var(--glass-blur);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            transition: var(--transition-normal);
+            overflow-y: auto;
+        }
+
+        .nav__menu.show-menu { right: 0; }
+
+        .nav__list {
+            display: flex;
+            flex-direction: column;
+            gap: var(--spacing-lg);
+            list-style: none;
+            text-align: center;
+            padding: var(--spacing-lg);
+        }
+
+        .nav__link {
+            font-size: 1.125rem;
+            font-weight: 500;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: var(--transition-normal);
+            position: relative;
+            padding: var(--spacing-sm);
+        }
+
+        @media (min-width: 768px) {
+            .nav__link {
+                font-size: 1rem;
+            }
+        }
+
+        .nav__link::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 0;
+            height: 2px;
+            background: var(--accent-primary);
+            transition: var(--transition-normal);
+        }
+
+        .nav__link:hover,
+        .nav__link.active {
+            color: var(--text-primary);
+        }
+
+        .nav__link:hover::after,
+        .nav__link.active::after {
+            width: 100%;
+        }
+
+        .nav__close {
+            position: absolute;
+            top: 1.5rem;
+            right: 1.5rem;
+            font-size: 1.5rem;
+            color: var(--text-primary);
+            cursor: pointer;
+            transition: var(--transition-normal);
+            width: 44px;
+            height: 44px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .nav__close:hover {
+            color: var(--accent-cyan);
+        }
+
+        .nav__actions {
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-xs);
+        }
+
+        @media (min-width: 768px) {
+            .nav__actions {
+                gap: var(--spacing-sm);
+            }
+        }
+
+        .nav__toggle {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 44px;
+            height: 44px;
+            font-size: 1.125rem;
+            color: var(--text-primary);
+            cursor: pointer;
+            transition: var(--transition-normal);
+        }
+
+        .nav__toggle:hover { color: var(--accent-cyan); }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: var(--spacing-sm) var(--spacing-md);
+            font-size: 0.9rem;
+            font-weight: 600;
+            text-decoration: none;
+            border: none;
+            border-radius: var(--radius-md);
+            cursor: pointer;
+            min-height: 44px;
+            gap: var(--spacing-xs);
+            max-width: 100%;
+            white-space: nowrap;
+        }
+
+        @media (min-width: 768px) {
+            .btn {
+                font-size: 1rem;
+                padding: var(--spacing-sm) var(--spacing-lg);
+            }
+        }
+
+        .btn--primary {
+            background: var(--accent-primary);
+            color: var(--text-primary);
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--purple-blue);
+        }
+
+        /* REMOVED: Purple hover effects */
+        .btn--primary:hover {
+            /* NO purple background changes */
+            /* NO transforms on mobile */
+        }
+
+        @media (min-width: 768px) {
+            .btn--primary:hover {
+                transform: translateY(-3px);
+                box-shadow: var(--shadow-glow);
+                background: linear-gradient(135deg, #7c8ef0 0%, #8b5aa8 100%);
+            }
+        }
+
+        /* Desktop Navigation */
+        @media (min-width: 768px) {
+            .nav__menu {
+                position: static;
+                width: auto;
+                height: auto;
+                background: transparent;
+                backdrop-filter: none;
+                flex-direction: row;
+                overflow-y: visible;
+            }
+            
+            .nav__list {
+                flex-direction: row;
+                gap: var(--spacing-xl);
+                padding: 0;
+            }
+            
+            .nav__link {
+                color: var(--text-secondary);
+            }
+            
+            .nav__close, .nav__toggle { display: none; }
+        }
+
+        /* Contact Hero Section - FIXED */
+        .contact-hero {
+            min-height: 60vh; /* FIXED: Shorter on mobile */
+            display: flex;
+            align-items: center;
+            background: var(--bg-primary);
+            background-image: 
+                radial-gradient(ellipse at top, rgba(102, 126, 234, 0.15) 0%, transparent 50%),
+                radial-gradient(ellipse at bottom left, rgba(0, 242, 254, 0.08) 0%, transparent 50%),
+                radial-gradient(ellipse at center right, rgba(245, 87, 108, 0.05) 0%, transparent 50%);
+            position: relative;
+            margin-top: 70px; /* FIXED: Account for mobile nav */
+            overflow: hidden;
+        }
+
+        @media (min-width: 768px) {
+            .contact-hero {
+                min-height: 70vh;
+                margin-top: 80px;
+            }
+        }
+
+        .contact-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('assets/images/contact-bg.jpg');
+            background-size: cover;
+            background-position: center;
+            opacity: 0.03;
+            z-index: 1;
+        }
+
+        .hero__content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            color: var(--text-primary);
+            animation: fadeInUp 1s ease-out;
+            padding: 0 var(--spacing-sm);
+        }
+
+        @media (min-width: 768px) {
+            .hero__content {
+                padding: 0;
+            }
+        }
+
+        .hero__badge {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--spacing-xs);
+            padding: var(--spacing-xs) var(--spacing-sm);
+            background: var(--glass-bg);
+            backdrop-filter: var(--glass-blur);
+            border: 1px solid var(--border-default);
+            border-radius: var(--radius-xl);
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: var(--accent-cyan);
+            margin-bottom: var(--spacing-md);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        @media (min-width: 768px) {
+            .hero__badge {
+                font-size: 0.9rem;
+                padding: var(--spacing-sm) var(--spacing-lg);
+                margin-bottom: var(--spacing-lg);
+            }
+        }
+
+        .hero__title {
+            font-size: 2rem; /* FIXED: Start smaller */
+            font-weight: 900;
+            margin-bottom: var(--spacing-lg);
+            background: var(--accent-primary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            word-wrap: break-word;
+        }
+
+        @media (min-width: 576px) {
+            .hero__title {
+                font-size: 2.5rem;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .hero__title {
+                font-size: 3rem;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .hero__title {
+                font-size: 3.5rem;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .hero__title {
+                font-size: 4rem;
+            }
+        }
+
+        .hero__subtitle {
+            font-size: 1rem;
+            color: var(--text-secondary);
+            max-width: 100%;
+            margin: 0 auto var(--spacing-lg);
+            line-height: 1.6;
+            padding: 0 var(--spacing-sm);
+        }
+
+        @media (min-width: 576px) {
+            .hero__subtitle {
+                font-size: 1.125rem;
+                max-width: 90%;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .hero__subtitle {
+                font-size: 1.25rem;
+                max-width: 800px;
+                margin: 0 auto var(--spacing-xl);
+                padding: 0;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .hero__subtitle {
+                font-size: 1.375rem;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .hero__subtitle {
+                font-size: 1.5rem;
+            }
+        }
+
+        .hero__contact-quick {
+            display: flex;
+            flex-direction: column;
+            gap: var(--spacing-sm);
+            align-items: center;
+        }
+
+        @media (min-width: 768px) {
+            .hero__contact-quick {
+                flex-direction: row;
+                justify-content: center;
+                gap: var(--spacing-xl);
+            }
+        }
+
+        /* FIXED Contact Quick Items - NO PURPLE HOVER */
+        .contact-quick__item {
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-xs);
+            color: var(--text-secondary);
+            font-size: 1rem;
+            padding: var(--spacing-sm) var(--spacing-md);
+            background: var(--glass-bg);
+            backdrop-filter: var(--glass-blur);
+            border: 1px solid var(--border-default);
+            border-radius: var(--radius-md);
+            /* REMOVED: transition to prevent hover animations */
+        }
+
+        @media (min-width: 768px) {
+            .contact-quick__item {
+                font-size: 1.125rem;
+                gap: var(--spacing-sm);
+                padding: var(--spacing-sm) var(--spacing-lg);
+            }
+        }
+
+        /* COMPLETELY REMOVED: Contact quick item hover effects */
+        .contact-quick__item:hover {
+            /* NO background changes */
+            /* NO transforms */
+        }
+
+        .contact-quick__item a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: var(--transition-normal);
+        }
+
+        .contact-quick__item a:hover {
+            color: var(--accent-cyan);
+        }
+
+        .contact-quick__item i {
+            color: var(--accent-cyan);
+        }
+
+        /* Contact Main Section */
+        .contact-main {
+            padding: var(--spacing-xl) 0;
+            background: var(--bg-secondary);
+            border-top: 1px solid var(--border-default);
+        }
+
+        @media (min-width: 768px) {
+            .contact-main {
+                padding: var(--spacing-mega) 0;
+            }
+        }
+
+        .contact__grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: var(--spacing-xl);
+            align-items: start;
+        }
+
+        @media (min-width: 768px) {
+            .contact__grid {
+                grid-template-columns: 1fr 1fr;
+                gap: var(--spacing-mega);
+            }
+        }
+
+/* FIXED Enhanced Contact Form - CONSISTENT COLORS FOR ALL FIELDS */
+.contact__form-section {
+    padding: var(--spacing-lg);
+    position: relative;
+}
+
+@media (min-width: 768px) {
+    .contact__form-section {
+        padding: var(--spacing-xl);
+    }
+}
+
+@media (min-width: 1200px) {
+    .contact__form-section {
+        padding: var(--spacing-xxl);
+    }
+}
+
+.form__glow {
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: var(--accent-primary);
+    border-radius: var(--radius-lg);
+    opacity: 0;
+    filter: blur(15px);
+    z-index: -1;
+}
+
+@media (min-width: 768px) {
+    .form__glow {
+        filter: blur(20px);
+    }
+}
+
+.contact__form-section:hover .form__glow {
+    /* NO opacity changes */
+}
+
+.form__header {
+    text-align: center;
+    margin-bottom: var(--spacing-lg);
+    padding: 0 var(--spacing-sm);
+}
+
+@media (min-width: 768px) {
+    .form__header {
+        margin-bottom: var(--spacing-xxl);
+        padding: 0;
+    }
+}
+
+.section__badge {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    padding: var(--spacing-xs) var(--spacing-sm);
+    background: var(--glass-bg);
+    backdrop-filter: var(--glass-blur);
+    border: 1px solid var(--border-default);
+    border-radius: var(--radius-xl);
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--accent-cyan);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: var(--spacing-md);
+}
+
+@media (min-width: 768px) {
+    .section__badge {
+        font-size: 0.875rem;
+        padding: var(--spacing-xs) var(--spacing-md);
+    }
+}
+
+.section__title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: var(--spacing-sm);
+    color: var(--text-primary);
+    word-wrap: break-word;
+}
+
+@media (min-width: 768px) {
+    .section__title {
+        font-size: 2rem;
+        margin-bottom: var(--spacing-md);
+    }
+}
+
+@media (min-width: 1200px) {
+    .section__title {
+        font-size: 2.5rem;
+    }
+}
+
+.form__description {
+    color: var(--text-secondary);
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+@media (min-width: 768px) {
+    .form__description {
+        font-size: 1.125rem;
+    }
+}
+
+/* Enhanced Form Elements */
+.contact__form {
+    display: grid;
+    gap: var(--spacing-md);
+}
+
+@media (min-width: 768px) {
+    .contact__form {
+        gap: var(--spacing-lg);
+    }
+}
+
+.form__group {
+    position: relative;
+}
+
+.form__label {
+    display: block;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-xs);
+    font-size: 0.9rem;
+}
+
+@media (min-width: 768px) {
+    .form__label {
+        margin-bottom: var(--spacing-sm);
+        font-size: 1rem;
+    }
+}
+
+/* FIXED: Base Form Input & Textarea Styling - CONSISTENT COLORS */
+.form__input,
+.form__textarea {
+    width: 100%;
+    padding: var(--spacing-sm);
+    font-family: inherit;
+    font-size: 0.9rem;
+    border: 1px solid var(--border-default);
+    border-radius: var(--radius-sm);
+    transition: var(--transition-normal);
+    resize: vertical;
+    min-height: 44px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* FORCE CONSISTENT DARK BACKGROUND FOR ALL FIELDS */
+    background: rgba(26, 26, 26, 0.9) !important;
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+}
+
+/* FIXED: Base Select Styling - CONSISTENT COLORS */
+.form__select {
+    width: 100%;
+    padding: var(--spacing-sm);
+    font-family: inherit;
+    font-size: 0.9rem;
+    border: 1px solid var(--border-default);
+    border-radius: var(--radius-sm);
+    transition: var(--transition-normal);
+    min-height: 44px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* FORCE CONSISTENT DARK BACKGROUND */
+    background: rgba(26, 26, 26, 0.9) !important;
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+    
+    /* Custom dropdown arrow */
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2300f2fe' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6,9 12,15 18,9'%3e%3c/polyline%3e%3c/svg%3e") !important;
+    background-repeat: no-repeat !important;
+    background-position: right 12px center !important;
+    background-size: 16px !important;
+    padding-right: 40px !important;
+}
+
+/* CRITICAL: Override Browser Autofill Styling - ALL DEVICES */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+textarea:-webkit-autofill:active,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus,
+select:-webkit-autofill:active {
+    /* OVERRIDE AUTOFILL BACKGROUND */
+    -webkit-box-shadow: 0 0 0px 1000px rgba(26, 26, 26, 0.9) inset !important;
+    -webkit-text-fill-color: #ffffff !important;
+    background-color: rgba(26, 26, 26, 0.9) !important;
+    color: #ffffff !important;
+    /* PREVENT TRANSITIONS THAT CHANGE COLORS */
+    transition: background-color 50000s ease-in-out 0s;
+}
+
+/* CRITICAL: Internal autofill override for newer browsers */
+input:-internal-autofill-selected,
+textarea:-internal-autofill-selected,
+select:-internal-autofill-selected {
+    background-color: rgba(26, 26, 26, 0.9) !important;
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+}
+
+/* Focus States - CONSISTENT FOR ALL FIELDS */
+.form__input:focus,
+.form__textarea:focus,
+.form__select:focus {
+    outline: none !important;
+    border-color: var(--border-focus) !important;
+    background: rgba(26, 26, 26, 0.95) !important;
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+}
+
+/* Placeholder Styling - CONSISTENT FOR ALL FIELDS */
+.form__input::placeholder,
+.form__textarea::placeholder {
+    color: rgba(255, 255, 255, 0.6) !important;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.6) !important;
+    opacity: 1 !important;
+}
+
+/* DESKTOP SPECIFIC ENHANCEMENTS */
+@media (min-width: 768px) {
+    .form__input,
+    .form__textarea,
+    .form__select {
+        padding: var(--spacing-md);
+        border-radius: var(--radius-md);
+        font-size: 1rem;
+        min-height: 48px;
+        /* DESKTOP GLASS EFFECT WITH DARK BASE */
+        background: rgba(26, 26, 26, 0.8) !important;
+        backdrop-filter: var(--glass-blur);
+    }
+    
+    .form__select {
+        background-position: right 16px center !important;
+        background-size: 20px !important;
+        padding-right: 48px !important;
+    }
+    
+    .form__input:focus,
+    .form__textarea:focus,
+    .form__select:focus {
+        background: rgba(26, 26, 26, 0.9) !important;
+        transform: translateY(-2px);
+    }
+    
+    .form__select:hover {
+        background: rgba(26, 26, 26, 0.85) !important;
+        border-color: rgba(255, 255, 255, 0.3);
+    }
+    
+    .form__input::placeholder,
+    .form__textarea::placeholder {
+        color: rgba(255, 255, 255, 0.5) !important;
+    }
+    
+    /* DESKTOP AUTOFILL OVERRIDE */
+    input:-webkit-autofill,
+    input:-webkit-autofill:hover,
+    input:-webkit-autofill:focus,
+    textarea:-webkit-autofill,
+    textarea:-webkit-autofill:hover,
+    textarea:-webkit-autofill:focus,
+    select:-webkit-autofill,
+    select:-webkit-autofill:hover,
+    select:-webkit-autofill:focus {
+        -webkit-box-shadow: 0 0 0px 1000px rgba(26, 26, 26, 0.8) inset !important;
+        backdrop-filter: var(--glass-blur) !important;
+    }
+}
+
+.form__textarea {
+    min-height: 100px;
+}
+
+@media (min-width: 768px) {
+    .form__textarea {
+        min-height: 120px;
+    }
+}
+
+/* Dropdown Options - CONSISTENT DARK THEME */
+.form__select option {
+    background-color: #1a1a1a !important;
+    color: #ffffff !important;
+    padding: 8px 12px;
+    border: none;
+}
+
+.form__select option[value=""] {
+    color: rgba(255, 255, 255, 0.6) !important;
+    font-style: italic;
+}
+
+/* Error States - CONSISTENT */
+.form__input.error,
+.form__select.error,
+.form__textarea.error {
+    border-color: var(--accent-pink) !important;
+    background: rgba(255, 107, 107, 0.1) !important;
+    box-shadow: 0 0 10px rgba(245, 87, 108, 0.3) !important;
+}
+
+.form__error {
+    color: var(--accent-pink);
+    font-size: 0.75rem;
+    margin-top: var(--spacing-xs);
+    display: none;
+    font-weight: 500;
+}
+
+@media (min-width: 768px) {
+    .form__error {
+        font-size: 0.875rem;
+    }
+}
+
+.form__error.show {
+    display: block;
+}
+
+/* Form Grid Layout */
+.form__row {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--spacing-md);
+}
+
+@media (min-width: 768px) {
+    .form__row {
+        grid-template-columns: 1fr 1fr;
+        gap: var(--spacing-lg);
+    }
+}
+
+/* ENHANCED Phone Input Styling - CONSISTENT COLORS */
+.phone__wrapper {
+    display: flex;
+    gap: 12px;
+    width: 100%;
+    align-items: stretch;
+}
+
+.country__code {
+    flex: 0 0 100px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    padding: var(--spacing-sm) 8px !important;
+    text-align: center;
+    border: 1px solid var(--border-default) !important;
+    border-radius: var(--radius-sm) !important;
+    cursor: pointer;
+    white-space: nowrap;
+    /* CONSISTENT DARK BACKGROUND */
+    background: rgba(26, 26, 26, 0.9) !important;
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+}
+
+@media (min-width: 768px) {
+    .phone__wrapper {
+        gap: 16px;
+    }
+    
+    .country__code {
+        flex: 0 0 120px;
+        font-size: 0.9rem;
+        padding: var(--spacing-md) 12px !important;
+        border-radius: var(--radius-md) !important;
+        /* DESKTOP GLASS EFFECT */
+        background: rgba(26, 26, 26, 0.8) !important;
+        backdrop-filter: var(--glass-blur) !important;
+    }
+}
+
+.phone__input {
+    flex: 1 !important;
+    font-family: 'JetBrains Mono', monospace !important;
+    letter-spacing: 1.2px !important;
+    font-size: 1rem !important;
+    min-width: 0 !important;
+    /* CONSISTENT DARK BACKGROUND */
+    background: rgba(26, 26, 26, 0.9) !important;
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+}
+
+@media (min-width: 768px) {
+    .phone__input {
+        font-size: 1.1rem !important;
+        letter-spacing: 1.5px !important;
+        background: rgba(26, 26, 26, 0.8) !important;
+        backdrop-filter: var(--glass-blur) !important;
+    }
+}
+
+/* Phone Specific Overrides */
+.country__code option {
+    background: #1a1a1a !important;
+    color: #ffffff !important;
+    padding: 8px 4px;
+}
+
+.country__code:hover,
+.country__code:focus {
+    background: rgba(26, 26, 26, 0.95) !important;
+    border-color: var(--border-focus) !important;
+}
+
+@media (min-width: 768px) {
+    .country__code:hover,
+    .country__code:focus {
+        transform: translateY(-2px);
+    }
+}
+
+.phone__input:focus {
+    background: rgba(26, 26, 26, 0.95) !important;
+    border-color: var(--border-focus) !important;
+}
+
+@media (min-width: 768px) {
+    .phone__input:focus {
+        transform: translateY(-2px) !important;
+    }
+}
+
+.phone__input::placeholder {
+    color: rgba(255, 255, 255, 0.6) !important;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.6) !important;
+}
+
+/* Error States for Phone */
+.form__group.error .country__code,
+.form__group.error .phone__input {
+    border-color: var(--accent-pink) !important;
+    box-shadow: 0 0 10px rgba(245, 87, 108, 0.3) !important;
+    background: rgba(255, 107, 107, 0.1) !important;
+}
+
+/* Success States for Phone */
+.form__group.success .country__code,
+.form__group.success .phone__input {
+    border-color: var(--accent-success) !important;
+    box-shadow: 0 0 8px rgba(67, 233, 123, 0.2) !important;
+}
+
+/* Submit Button */
+.form__submit {
+    background: var(--accent-primary);
+    color: var(--text-primary);
+    border: 1px solid var(--purple-blue);
+    padding: var(--spacing-md) var(--spacing-lg);
+    border-radius: var(--radius-md);
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    min-height: 48px;
+    position: relative;
+    overflow: hidden;
+}
+
+@media (min-width: 768px) {
+    .form__submit {
+        padding: var(--spacing-md) var(--spacing-xl);
+        font-size: 1.25rem;
+        min-height: 56px;
+    }
+}
+
+.form__submit:hover:not(:disabled) {
+    /* NO hover effects */
+}
+
+.form__submit:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.form__submit-text {
+    transition: var(--transition-normal);
+}
+
+.form__submit.loading .form__submit-text {
+    opacity: 0;
+}
+
+/* Loading Spinner */
+.form__spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-top: 2px solid var(--text-primary);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    opacity: 0;
+    transition: var(--transition-normal);
+}
+
+@media (min-width: 768px) {
+    .form__spinner {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+.form__submit.loading .form__spinner {
+    opacity: 1;
+}
+
+@keyframes spin {
+    0% { transform: translate(-50%, -50%) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+
+        /* FIXED Contact Information Section - NO PURPLE HOVER */
+        .contact__info-section {
+            display: grid;
+            gap: var(--spacing-lg);
+        }
+
+        @media (min-width: 768px) {
+            .contact__info-section {
+                gap: var(--spacing-xl);
+            }
+        }
+
+        .contact__info-card {
+            padding: var(--spacing-lg);
+            /* REMOVED: transition to prevent hover animations */
+            position: relative;
+            text-align: center;
+        }
+
+        @media (min-width: 768px) {
+            .contact__info-card {
+                padding: var(--spacing-xl);
+                text-align: left;
+            }
+        }
+
+        .info__glow {
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            background: var(--accent-primary);
+            border-radius: var(--radius-lg);
+            opacity: 0;
+            filter: blur(15px);
+            /* REMOVED: transition to prevent hover animations */
+            z-index: -1;
+        }
+
+        /* COMPLETELY REMOVED: Info card hover effects */
+        .contact__info-card:hover .info__glow {
+            /* NO opacity changes */
+        }
+
+        .contact__info-card:hover {
+            /* NO transforms */
+            /* NO background changes */
+        }
+
+        .info__header {
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-md);
+            margin-bottom: var(--spacing-md);
+            flex-direction: column;
+            text-align: center;
+        }
+
+        @media (min-width: 768px) {
+            .info__header {
+                gap: var(--spacing-lg);
+                margin-bottom: var(--spacing-lg);
+                flex-direction: row;
+                text-align: left;
+            }
+        }
+
+        .info__icon {
+            width: 56px;
+            height: 56px;
+            background: var(--accent-primary);
+            border-radius: var(--radius-md);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.25rem;
+            color: var(--text-primary);
+            position: relative;
+            flex-shrink: 0;
+        }
+
+        @media (min-width: 768px) {
+            .info__icon {
+                width: 64px;
+                height: 64px;
+                border-radius: var(--radius-lg);
+                font-size: 1.5rem;
+            }
+        }
+
+        .info__icon::before {
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            background: var(--accent-primary);
+            border-radius: inherit;
+            opacity: 0;
+            filter: blur(10px);
+            /* REMOVED: transition to prevent hover animations */
+            z-index: -1;
+        }
+
+        /* COMPLETELY REMOVED: Info icon hover effects */
+        .contact__info-card:hover .info__icon::before {
+            /* NO opacity changes */
+        }
+
+        .info__title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+
+        @media (min-width: 768px) {
+            .info__title {
+                font-size: 1.5rem;
+            }
+        }
+
+        .info__content {
+            color: var(--text-secondary);
+            line-height: 1.6;
+            font-size: 0.9rem;
+        }
+
+        @media (min-width: 768px) {
+            .info__content {
+                font-size: 1rem;
+                line-height: 1.7;
+            }
+        }
+
+        /* FIXED Info Items - NO PURPLE HOVER */
+        .info__item {
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-xs);
+            margin-bottom: var(--spacing-sm);
+            padding: var(--spacing-xs);
+            border-radius: var(--radius-sm);
+            /* REMOVED: transition to prevent hover animations */
+            justify-content: center;
+        }
+
+        @media (min-width: 768px) {
+            .info__item {
+                gap: var(--spacing-sm);
+                margin-bottom: var(--spacing-md);
+                padding: var(--spacing-sm);
+                justify-content: flex-start;
+            }
+        }
+
+        /* COMPLETELY REMOVED: Info item hover effects */
+        .info__item:hover {
+            /* NO background changes */
+            /* NO transforms */
+        }
+
+        .info__item:last-child {
+            margin-bottom: 0;
+        }
+
+        .info__item a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: var(--transition-normal);
+        }
+
+        .info__item a:hover {
+            color: var(--accent-cyan);
+        }
+
+        .info__item i {
+            color: var(--accent-cyan);
+            width: 18px;
+            flex-shrink: 0;
+        }
+
+        @media (min-width: 768px) {
+            .info__item i {
+                width: 20px;
+            }
+        }
+
+        /* Success Modal */
+        .success-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            background: rgba(0, 0, 0, 0.8);
+            backdrop-filter: var(--glass-blur);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+            opacity: 0;
+            visibility: hidden;
+            transition: var(--transition-normal);
+        }
+
+        .success-modal.show {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .modal__content {
+            background: var(--glass-bg);
+            backdrop-filter: var(--glass-blur);
+            border: 1px solid var(--border-default);
+            border-radius: var(--radius-lg);
+            padding: var(--spacing-lg);
+            max-width: 90%;
+            width: 100%;
+            text-align: center;
+            transform: scale(0.8);
+            transition: var(--transition-normal);
+            position: relative;
+        }
+
+        @media (min-width: 768px) {
+            .modal__content {
+                border-radius: var(--radius-xl);
+                padding: var(--spacing-xxl);
+                max-width: 500px;
+                width: 90%;
+            }
+        }
+
+        .success-modal.show .modal__content {
+            transform: scale(1);
+        }
+
+        .modal__glow {
+            position: absolute;
+            top: -20px;
+            left: -20px;
+            right: -20px;
+            bottom: -20px;
+            background: radial-gradient(ellipse, var(--glow-primary) 0%, transparent 70%);
+            opacity: 0.4;
+            border-radius: inherit;
+            z-index: -1;
+        }
+
+        .modal__icon {
+            width: 64px;
+            height: 64px;
+            background: var(--accent-success);
+            border-radius: var(--radius-round);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            color: var(--text-primary);
+            margin: 0 auto var(--spacing-md);
+            position: relative;
+        }
+
+        @media (min-width: 768px) {
+            .modal__icon {
+                width: 80px;
+                height: 80px;
+                font-size: 2rem;
+                margin: 0 auto var(--spacing-lg);
+            }
+        }
+
+        .modal__icon::before {
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            background: var(--accent-success);
+            border-radius: var(--radius-round);
+            opacity: 0.6;
+            filter: blur(10px);
+            z-index: -1;
+        }
+
+        .modal__title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: var(--spacing-sm);
+        }
+
+        @media (min-width: 768px) {
+            .modal__title {
+                font-size: 1.75rem;
+            }
+        }
+
+        .modal__message {
+            color: var(--text-secondary);
+            margin-bottom: var(--spacing-lg);
+            line-height: 1.6;
+            font-size: 1rem;
+        }
+
+        @media (min-width: 768px) {
+            .modal__message {
+                margin-bottom: var(--spacing-xl);
+                font-size: 1.125rem;
+            }
+        }
+
+        .modal__button {
+            background: var(--accent-primary);
+            color: var(--text-primary);
+            border: 1px solid var(--purple-blue);
+            padding: var(--spacing-sm) var(--spacing-lg);
+            border-radius: var(--radius-md);
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition-normal);
+            font-size: 0.9rem;
+        }
+
+        @media (min-width: 768px) {
+            .modal__button {
+                padding: var(--spacing-md) var(--spacing-xl);
+                font-size: 1rem;
+            }
+        }
+
+        .modal__button:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-glow);
+        }
+
+        /* Footer */
+        .footer {
+            background: #0c0c0c;
+            color: var(--text-secondary);
+            padding: var(--spacing-lg) 0 var(--spacing-md);
+            text-align: center;
+            border-top: 1px solid var(--border-default);
+        }
+
+        @media (min-width: 768px) {
+            .footer {
+                padding: var(--spacing-xl) 0 var(--spacing-lg);
+            }
+        }
+
+        .footer__content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: var(--spacing-md);
+        }
+
+        @media (min-width: 768px) {
+            .footer__content {
+                gap: var(--spacing-lg);
+            }
+        }
+
+      .footer__logo {
+  height: 45px; /* Same as nav logo */
+  width: auto;
+  max-width: 200px; /* Same as nav logo */
+  object-fit: contain;
+  
+  margin-bottom: var(--spacing-sm);
+  transition: all 0.3s ease; /* Same smooth effects */
+}
+
+.footer__logo:hover {
+  transform: scale(1.05); /* Same hover effect as nav */
+}
+
+@media (min-width: 768px) {
+  .footer__logo {
+    height: 52px; /* Same as nav logo desktop size */
+    max-width: 240px; /* Same as nav logo desktop size */
+  }
+}
+
+        .footer__links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: var(--spacing-md);
+            justify-content: center;
+        }
+
+        @media (min-width: 768px) {
+            .footer__links {
+                gap: var(--spacing-lg);
+            }
+        }
+
+        .footer__links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        @media (min-width: 768px) {
+            .footer__links a {
+                font-size: 1rem;
+            }
+        }
+
+        .footer__links a:hover {
+            color: var(--accent-cyan);
+        }
+
+        .footer__bottom {
+            border-top: 1px solid var(--border-default);
+            margin-top: var(--spacing-md);
+            padding-top: var(--spacing-md);
+            color: var(--text-subtle);
+            font-size: 0.875rem;
+        }
+
+        @media (min-width: 768px) {
+            .footer__bottom {
+                margin-top: var(--spacing-lg);
+                padding-top: var(--spacing-lg);
+                font-size: 1rem;
+            }
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (min-width: 768px) {
+            @keyframes fadeInUp {
+                from {
+                    opacity: 0;
+                    transform: translateY(30px);
+                }
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+        }
+
+        /* Scroll Reveal Classes */
+        .reveal-up { 
+            opacity: 0; 
+            transform: translateY(30px); 
+            transition: all 0.6s ease-out;
+        }
+        
+        .reveal-left { 
+            opacity: 0; 
+            transform: translateX(-30px); 
+            transition: all 0.6s ease-out;
+        }
+        
+        .reveal-right { 
+            opacity: 0; 
+            transform: translateX(30px); 
+            transition: all 0.6s ease-out;
+        }
+        
+        .revealed { 
+            opacity: 1; 
+            transform: translate(0, 0); 
+        }
+
+        /* Reduced Motion */
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
+
+        /* Focus Accessibility */
+        .form__input:focus,
+        .form__select:focus,
+        .form__textarea:focus,
+        .form__submit:focus,
+        .nav__link:focus,
+        .btn:focus {
+            outline: 2px solid var(--accent-cyan);
+            outline-offset: 2px;
+        }
+
+
+</style>
+
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__brand">
+                <img src="assets/images/logo.png" alt="Orivanta" class="nav__logo">
+            </div>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="services.html" class="nav__link">Solutions</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="about.html" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="contact.html" class="nav__link active">Contact</a>
+                    </li>
+                </ul>
+                
+                <div class="nav__close" id="nav-close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            
+            <div class="nav__actions">
+                <a href="https://cal.com/orivantalabs/30min" class="btn btn--primary">Book Demo</a>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+   <!-- Contact Hero Section -->
+<section class="contact-hero">
+    <div class="container">
+        <div class="hero__content">
+            <div class="hero__badge">
+                <i class="fas fa-robot"></i>
+                <span>Book a Demo</span>
+
+            </div>
+            <h1 class="hero__title">Ready to automate conversations and scale revenue?</h1>
+            <p class="hero__subtitle">
+                Let's discuss how our AI solutions can capture more leads, reduce support costs, and improve customer satisfaction—with measurable results like 2× qualified leads and 60% fewer support calls.
+            </p>
+            
+            <div class="hero__contact-quick">
+                <div class="contact-quick__item glass-card">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:support@orivanta.in">support@orivanta.in</a>
+                </div>
+               <div class="contact-quick__item glass-card">
+                    <i class="fas fa-phone"></i>
+                    <a href="tel:+919473421755">+91 94734 21755</a>
+                  </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Main Section -->
+<section class="contact-main">
+    <div class="container">
+        <div class="contact__grid">
+            <!-- Enhanced Contact Form -->
+            <div class="contact__form-section glass-card reveal-left" id="contact-form">
+                <div class="form__glow"></div>
+                <div class="form__header">
+                    <span class="section__badge">
+                        <i class="fas fa-comments"></i>
+                        Start Conversation
+                    </span>
+                    <h2 class="section__title">Get in Touch</h2>
+                    <p class="form__description">
+                        Looking to collaborate? Have a partnership idea? Questions about our services? Whatever brings you here, we're excited to connect. Share your thoughts and we'll follow up within one business day.
+                        
+                    </p>
+                </div>
+
+                <form class="contact__form" id="contactForm" novalidate>
+    <!-- First Row: Name Fields -->
+    <div class="form__row">
+        <div class="form__group">
+            <label for="firstName" class="form__label">First Name *</label>
+            <input type="text" id="firstName" name="firstName" class="form__input" required>
+            <div class="form__error">Please enter your first name</div>
+        </div>
+
+        <div class="form__group">
+            <label for="lastName" class="form__label">Last Name *</label>
+            <input type="text" id="lastName" name="lastName" class="form__input" required>
+            <div class="form__error">Please enter your last name</div>
+        </div>
+    </div>
+
+    <!-- Second Row: Email (Full Width) -->
+    <div class="form__group">
+        <label for="email" class="form__label">Business Email *</label>
+        <input type="email" id="email" name="email" class="form__input" required>
+        <div class="form__error">Please enter a valid business email</div>
+    </div>
+
+    <!-- Third Row: Phone (Full Width for Better Visibility) -->
+    <div class="form__group">
+        <label for="phone" class="form__label">Phone Number</label>
+        <div class="phone__wrapper">
+            <select id="countryCode" class="country__code">
+                <option value="+91">🇮🇳 +91</option>
+                <option value="+1">🇺🇸 +1</option>
+                <option value="+44">🇬🇧 +44</option>
+                <option value="+61">🇦🇺 +61</option>
+                <option value="+49">🇩🇪 +49</option>
+                <option value="+33">🇫🇷 +33</option>
+                <option value="+81">🇯🇵 +81</option>
+                <option value="+86">🇨🇳 +86</option>
+                <option value="+65">🇸🇬 +65</option>
+                <option value="+971">🇦🇪 +971</option>
+                <option value="+966">🇸🇦 +966</option>
+                <option value="+7">🇷🇺 +7</option>
+                <option value="+55">🇧🇷 +55</option>
+                <option value="+34">🇪🇸 +34</option>
+                <option value="+39">🇮🇹 +39</option>
+            </select>
+            <input type="tel" id="phone" name="phone" class="form__input phone__input" placeholder="98876 99999" maxlength="20">
+        </div>
+        <div class="form__error">Please enter a valid phone number</div>
+    </div>
+
+    <!-- Fourth Row: Company (Full Width) -->
+    <div class="form__group">
+        <label for="company" class="form__label">Company Name *</label>
+        <input type="text" id="company" name="company" class="form__input" required>
+        <div class="form__error">Please enter your company name</div>
+    </div>
+
+    <!-- Fifth Row: Subject (Full Width) -->
+    <div class="form__group">
+        <label for="subject" class="form__label">Which AI solution interests you? *</label>
+        <select id="subject" name="subject" class="form__select" required>
+            <option value="">Choose a solution...</option>
+            <option value="whatsapp">WhatsApp & Chatbot Automation</option>
+            <option value="voice">Voice AI</option>
+            <option value="leadgen">Lead Generation Platforms</option>
+            <option value="omnichannel">Omnichannel Engagement</option>
+            <option value="general">General Inquiry</option>
+            <option value="demo">Full Demo - All Solutions</option>
+        </select>
+        <div class="form__error">Please select an AI solution</div>
+    </div>
+
+    <!-- Sixth Row: Message (Full Width) -->
+    <div class="form__group">
+        <label for="message" class="form__label">Current Challenges *</label>
+        <textarea id="message" name="message" class="form__textarea" 
+                 placeholder="Describe your current challenges with customer support, lead generation, or automation. What business goals are you trying to achieve?" required></textarea>
+        <div class="form__error">Please describe your current challenges</div>
+    </div>
+
+    <!-- Submit Button -->
+    <button type="submit" class="form__submit">
+        <span class="form__submit-text">Submit</span>
+        <div class="form__spinner"></div>
+    </button>
+</form>
+
+            </div>
+
+            <!-- Enhanced Contact Information -->
+            <div class="contact__info-section reveal-right">
+                <!-- Direct Contact -->
+                <div class="contact__info-card glass-card">
+                    <div class="info__glow"></div>
+                    <div class="info__header">
+                        <div class="info__icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <h3 class="info__title">Contact Information</h3>
+                    </div>
+                    <div class="info__content">
+                        <div class="info__item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:support@orivanta.in">support@orivanta.in</a>
+                        </div>
+                        <div class="info__item">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+919473421755">+91 94734 21755</a>
+                        </div>
+                        <p style="margin-top: var(--spacing-sm); color: var(--text-secondary);">
+                            For immediate assistance or urgent inquiries, reach us directly. Available Monday-Friday, 9 AM - 10 PM IST.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Response Time -->
+                <!-- Response Time -->
+<div class="contact__info-card glass-card">
+    <div class="info__glow"></div>
+    <div class="info__header">
+        <div class="info__icon">
+            <i class="fas fa-clock"></i>
+        </div>
+        <h3 class="info__title">Response Time</h3>
+    </div>
+    <div class="info__content">
+        <div class="info__item">
+            <i class="fas fa-calendar-check"></i>
+            <span><strong>Demo Booking:</strong> Instant via Cal.com</span>
+        </div>
+        <div class="info__item">
+            <i class="fas fa-envelope"></i>
+            <span><strong>General Inquiries:</strong> Within 24 hours</span>
+        </div>
+        <div class="info__item">
+            <i class="fas fa-business-time"></i>
+            <span><strong>Business Hours:</strong> 9 AM - 10 PM IST</span>
+        </div>
+        <p style="margin-top: var(--spacing-sm); color: var(--text-secondary);">
+            Book your AI demo instantly through our calendar or reach out with questions - we're here to help you succeed.
+        </p>
+    </div>
+</div>
+
+                <!-- What Happens Next -->
+               <div class="contact__info-card glass-card">
+    <div class="info__glow"></div>
+    <div class="info__header">
+        <div class="info__icon">
+            <i class="fas fa-route"></i>
+        </div>
+        <h3 class="info__title">What Happens Next?</h3>
+    </div>
+    <div class="info__content">
+        <div class="info__item">
+            <i class="fas fa-comments"></i>
+            <span>Understand your current customer communication challenges</span>
+        </div>
+        <div class="info__item">
+            <i class="fas fa-robot"></i>
+            <span>Live demo of AI solutions tailored to your business</span>
+        </div>
+        <div class="info__item">
+            <i class="fas fa-calculator"></i>
+            <span>Calculate potential time and cost savings</span>
+        </div>
+        <div class="info__item">
+            <i class="fas fa-handshake"></i>
+            <span>Discuss implementation timeline and next steps</span>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Success Modal -->
+<div class="success-modal" id="successModal">
+    <div class="modal__content glass-card">
+        <div class="modal__glow"></div>
+        <div class="modal__icon">
+            <i class="fas fa-check"></i>
+        </div>
+        <h3 class="modal__title">Demo Request Received!</h3>
+        <p class="modal__message">
+            Thanks for reaching out! 
+
+ We're genuinely excited about your interest in connecting with Orivanta. Whether you're looking to collaborate, explore partnerships, or simply have questions, we're here for meaningful conversations.
+
+Expected response time: Within one business day
+
+        </p>
+        <button class="modal__button" onclick="closeSuccessModal()">
+            Continue Exploring
+        </button>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer__content">
+            <img src="assets/images/logo.png" alt="Orivanta" class="footer__logo">
+            <p class="footer__description">
+                AI conversations that capture, qualify, and convert—automatically.
+            </p>
+            <nav class="footer__links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Solutions</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <div class="footer__bottom">
+                <p>&copy; 2025 Orivanta. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+        // ===================================
+        // CONTACT PAGE JAVASCRIPT - UPDATED
+        // Updated for AI-focused contact form
+        // ===================================
+
+        // Add this script to the <head> section of ALL pages
+
+// Fix back/forward cache page state issues
+window.addEventListener('pageshow', function(event) {
+    if (event.persisted) {
+        // Page was restored from bfcache, reset everything
+        console.log('Page restored from cache, resetting...');
+        
+        // Reset any transforms
+        document.body.style.transform = '';
+        document.documentElement.style.transform = '';
+        
+        // Reset scroll position
+        window.scrollTo(0, 0);
+        
+        // Reset any active states
+        document.body.classList.remove('menu-open', 'modal-open');
+        
+        // Reset overflow
+        document.body.style.overflow = '';
+        document.documentElement.style.overflow = '';
+        
+        // Force a reflow
+        window.location.reload();
+    }
+});
+
+// Prevent caching of pages with forms or dynamic content
+window.addEventListener('beforeunload', function() {
+    // Clean up any transforms or states
+    document.body.style.transform = '';
+    document.documentElement.style.transform = '';
+});
+
+
+
+        // Mobile Navigation Toggle
+        const navToggle = document.getElementById('nav-toggle');
+        const navMenu = document.getElementById('nav-menu');
+        const navClose = document.getElementById('nav-close');
+
+        if(navToggle) {
+            navToggle.addEventListener('click', () => {
+                navMenu.classList.add('show-menu');
+                document.body.style.overflow = 'hidden';
+            });
+        }
+
+        if(navClose) {
+            navClose.addEventListener('click', () => {
+                navMenu.classList.remove('show-menu');
+                document.body.style.overflow = 'auto';
+            });
+        }
+
+        // Close mobile menu when clicking nav links
+        const navLinks = document.querySelectorAll('.nav__link');
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('show-menu');
+                document.body.style.overflow = 'auto';
+            });
+        });
+
+        // Header scroll effect
+        let scrollTimeout;
+        const scrollHeader = () => {
+            if (scrollTimeout) {
+                clearTimeout(scrollTimeout);
+            }
+            scrollTimeout = setTimeout(() => {
+                const header = document.getElementById('header');
+                if(window.scrollY >= 50) {
+                    header.classList.add('scroll-header');
+                } else {
+                    header.classList.remove('scroll-header');
+                }
+            }, 10);
+        };
+        window.addEventListener('scroll', scrollHeader, { passive: true });
+
+        // Enhanced Scroll Reveal Animation
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('revealed');
+                    revealObserver.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.reveal-up, .reveal-left, .reveal-right').forEach(el => {
+            revealObserver.observe(el);
+        });
+
+       // ===================================
+// UPDATED FORM VALIDATION & HANDLING - FIXED ERROR HANDLING
+// ===================================
+
+const contactForm = document.getElementById('contactForm');
+const formInputs = contactForm.querySelectorAll('.form__input, .form__select, .form__textarea');
+const phoneInput = document.getElementById('phone');
+const countrySelect = document.getElementById('countryCode');
+
+// Phone formatting patterns for different countries
+const phoneFormats = {
+    '+91': { pattern: /(\d{5})(\d{5})/, format: '$1 $2', maxLength: 10 }, // India: 98876 99999
+    '+1': { pattern: /(\d{3})(\d{3})(\d{4})/, format: '($1) $2-$3', maxLength: 10 }, // US: (988) 769-9999
+    '+44': { pattern: /(\d{4})(\d{6})/, format: '$1 $2', maxLength: 10 }, // UK: 2076 869999
+    '+61': { pattern: /(\d{4})(\d{3})(\d{3})/, format: '$1 $2 $3', maxLength: 10 }, // Australia: 0412 345 678
+    '+49': { pattern: /(\d{4})(\d{7})/, format: '$1 $2', maxLength: 11 }, // Germany: 0176 12345678
+    '+33': { pattern: /(\d{2})(\d{2})(\d{2})(\d{2})(\d{2})/, format: '$1 $2 $3 $4 $5', maxLength: 10 }, // France: 01 23 45 67 89
+    '+81': { pattern: /(\d{3})(\d{4})(\d{4})/, format: '$1-$2-$3', maxLength: 11 }, // Japan: 090-1234-5678
+    '+86': { pattern: /(\d{3})(\d{4})(\d{4})/, format: '$1 $2 $3', maxLength: 11 }, // China: 138 0013 8000
+    '+7': { pattern: /(\d{3})(\d{3})(\d{2})(\d{2})/, format: '$1 $2-$3-$4', maxLength: 10 }, // Russia: 916 123-45-67
+    '+55': { pattern: /(\d{2})(\d{5})(\d{4})/, format: '($1) $2-$3', maxLength: 11 }, // Brazil: (11) 99999-9999
+    '+971': { pattern: /(\d{2})(\d{3})(\d{4})/, format: '$1 $2 $3', maxLength: 9 }, // UAE: 50 123 4567
+    '+966': { pattern: /(\d{2})(\d{3})(\d{4})/, format: '$1 $2 $3', maxLength: 9 }, // Saudi: 50 123 4567
+};
+
+// Format phone number as user types
+function formatPhoneNumber(value, countryCode) {
+    // Remove all non-digits
+    const cleaned = value.replace(/\D/g, '');
+    
+    const format = phoneFormats[countryCode];
+    if (!format) return cleaned;
+    
+    // Limit to max length for country
+    const limited = cleaned.substring(0, format.maxLength);
+    
+    // Apply formatting
+    const match = limited.match(format.pattern);
+    if (match) {
+        return limited.replace(format.pattern, format.format);
+    }
+    
+    return limited;
+}
+
+// Enhanced validation rules with phone formatting
+const validationRules = {
+    firstName: {
+        required: true,
+        minLength: 2,
+        pattern: /^[a-zA-Z\s\u00C0-\u017F]+$/,
+        message: 'First name must contain only letters'
+    },
+    lastName: {
+        required: true,
+        minLength: 2,
+        pattern: /^[a-zA-Z\s\u00C0-\u017F]+$/,
+        message: 'Last name must contain only letters'
+    },
+    email: {
+        required: true,
+        pattern: /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/,
+        message: 'Please enter a valid business email address'
+    },
+    phone: {
+        required: false,
+        custom: true, // Use custom phone validation
+        message: 'Please enter a valid phone number'
+    },
+    company: {
+        required: true,
+        minLength: 2,
+        message: 'Please enter your company name'
+    },
+    subject: {
+        required: true,
+        message: 'Please select which AI solution interests you'
+    },
+    message: {
+        required: true,
+        minLength: 20,
+        message: 'Please provide at least 20 characters describing your current challenges'
+    }
+};
+
+// Helper function to get country name
+function getCountryName(countryCode) {
+    const countryNames = {
+        '+91': 'Indian',
+        '+1': 'US',
+        '+44': 'UK',
+        '+61': 'Australian',
+        '+49': 'German',
+        '+33': 'French',
+        '+81': 'Japanese',
+        '+86': 'Chinese',
+        '+7': 'Russian',
+        '+55': 'Brazilian',
+        '+971': 'UAE',
+        '+966': 'Saudi'
+    };
+    return countryNames[countryCode] || 'valid';
+}
+
+// FIXED: Error handling functions with null checks
+function showError(field, errorElement, message) {
+    if (!field || !errorElement) {
+        console.warn('Missing field or error element in showError');
+        return;
+    }
+    
+    field.classList.add('error');
+    
+    // Safe parent element check
+    if (field.parentElement) {
+        field.parentElement.classList.add('error');
+        field.parentElement.classList.remove('success');
+    }
+    
+    errorElement.textContent = message;
+    errorElement.classList.add('show');
+}
+
+function clearError(field, errorElement) {
+    if (!field) {
+        console.warn('Missing field in clearError');
+        return;
+    }
+    
+    field.classList.remove('error');
+    
+    // Safe parent element check
+    if (field.parentElement) {
+        field.parentElement.classList.remove('error');
+    }
+    
+    // Safe error element check
+    if (errorElement) {
+        errorElement.classList.remove('show');
+    } else {
+        console.warn('Error element not found for field:', field.name);
+    }
+}
+
+// FIXED: Enhanced validation function with better error handling
+function validateField(field) {
+    if (!field) {
+        console.warn('Field is null in validateField');
+        return false;
+    }
+    
+    const name = field.name;
+    const value = field.value ? field.value.trim() : '';
+    const rules = validationRules[name];
+    
+    // Enhanced error element finding with multiple fallbacks
+    let errorElement = null;
+    
+    // Try different ways to find the error element
+    if (field.parentElement) {
+        errorElement = field.parentElement.querySelector('.form__error');
+        
+        // If not found in direct parent, try phone wrapper case
+        if (!errorElement && field.closest('.phone__wrapper')) {
+            errorElement = field.closest('.form__group')?.querySelector('.form__error');
+        }
+        
+        // If still not found, try going up one more level
+        if (!errorElement) {
+            errorElement = field.closest('.form__group')?.querySelector('.form__error');
+        }
+    }
+    
+    if (!rules) {
+        if (errorElement) clearError(field, errorElement);
+        return true;
+    }
+
+    // Custom phone validation
+    if (name === 'phone' && rules.custom) {
+        // Skip validation if phone is empty and not required
+        if (!rules.required && !value) {
+            clearError(field, errorElement);
+            return true;
+        }
+        
+        if (value && countrySelect) {
+            const countryCode = countrySelect.value;
+            const format = phoneFormats[countryCode];
+            const cleaned = value.replace(/\D/g, '');
+            
+            // Check if phone number meets minimum requirements
+            const minLength = countryCode === '+91' ? 10 : 
+                             countryCode === '+1' ? 10 :
+                             countryCode === '+44' ? 10 :
+                             countryCode === '+971' ? 9 :
+                             countryCode === '+966' ? 9 : 8;
+            
+            if (cleaned.length >= minLength && cleaned.length <= (format?.maxLength || 15)) {
+                clearError(field, errorElement);
+                if (field.parentElement) {
+                    field.parentElement.classList.add('success');
+                }
+                return true;
+            } else {
+                showError(field, errorElement, `Please enter a valid ${getCountryName(countryCode)} phone number`);
+                return false;
+            }
+        }
+        
+        clearError(field, errorElement);
+        return true;
+    }
+
+    // Check required fields
+    if (rules.required && !value) {
+        showError(field, errorElement, rules.message || `${name} is required`);
+        return false;
+    }
+
+    // Skip further validation if field is optional and empty
+    if (!rules.required && !value) {
+        clearError(field, errorElement);
+        return true;
+    }
+
+    // Check minimum length
+    if (rules.minLength && value.length < rules.minLength) {
+        showError(field, errorElement, `Must be at least ${rules.minLength} characters`);
+        return false;
+    }
+
+    // Check pattern
+    if (rules.pattern && !rules.pattern.test(value)) {
+        showError(field, errorElement, rules.message);
+        return false;
+    }
+
+    // All validations passed
+    clearError(field, errorElement);
+    if (field.parentElement) {
+        field.parentElement.classList.add('success');
+    }
+    return true;
+}
+
+// Initialize phone functionality
+function initializePhoneInput() {
+    if (!phoneInput || !countrySelect) {
+        console.warn('Phone input or country select not found');
+        return;
+    }
+
+    // Phone input event listeners
+    phoneInput.addEventListener('input', function(e) {
+        const countryCode = countrySelect.value;
+        const formatted = formatPhoneNumber(e.target.value, countryCode);
+        e.target.value = formatted;
+    });
+
+    // Update formatting when country changes
+    countrySelect.addEventListener('change', function() {
+        if (phoneInput.value) {
+            const formatted = formatPhoneNumber(phoneInput.value, this.value);
+            phoneInput.value = formatted;
+        }
+        
+        // Update placeholder based on country
+        const countryCode = this.value;
+        const placeholders = {
+            '+91': '98876 99999',
+            '+1': '(555) 123-4567',
+            '+44': '2076 869999',
+            '+61': '0412 345 678',
+            '+49': '0176 1234567',
+            '+33': '01 23 45 67 89',
+            '+81': '090-1234-5678',
+            '+86': '138 0013 8000',
+            '+7': '916 123-45-67',
+            '+55': '(11) 99999-9999',
+            '+971': '50 123 4567',
+            '+966': '50 123 4567'
+        };
+        
+        phoneInput.placeholder = placeholders[countryCode] || 'Enter phone number';
+    });
+}
+
+// Real-time validation with enhanced error handling
+formInputs.forEach(input => {
+    if (!input) return; // Skip null inputs
+    
+    input.addEventListener('focus', () => {
+        if (window.innerWidth >= 768) {
+            input.style.transform = 'translateY(-2px)';
+        }
+        
+        // Safe error element finding
+        const errorElement = input.closest('.form__group')?.querySelector('.form__error');
+        if (input.classList.contains('error') && errorElement) {
+            clearError(input, errorElement);
+        }
+    });
+    
+    input.addEventListener('blur', () => {
+        input.style.transform = 'translateY(0)';
+        
+        // Delay validation for phone to allow formatting
+        if (input.name === 'phone') {
+            setTimeout(() => validateField(input), 300);
+        } else {
+            validateField(input);
+        }
+    });
+
+    // Live validation for email
+    if (input.name === 'email') {
+        let emailTimeout;
+        input.addEventListener('input', () => {
+            clearTimeout(emailTimeout);
+            emailTimeout = setTimeout(() => {
+                if (input.value.length > 3) {
+                    validateField(input);
+                }
+            }, 500);
+        });
+    }
+
+    // Character count for message field
+    if (input.name === 'message') {
+        // Check if char count already exists
+        const existingCharCount = input.parentElement?.querySelector('.char-count');
+        if (!existingCharCount) {
+            const charCount = document.createElement('div');
+            charCount.className = 'char-count';
+            charCount.style.cssText = `
+                font-size: 12px;
+                color: var(--text-secondary);
+                text-align: right;
+                margin-top: 4px;
+            `;
+            
+            if (input.parentElement) {
+                input.parentElement.appendChild(charCount);
+            }
+            
+            input.addEventListener('input', () => {
+                const length = input.value.length;
+                charCount.textContent = `${length}/20 min`;
+                charCount.style.color = length >= 20 ? 'var(--accent-success)' : 'var(--text-secondary)';
+            });
+        }
+    }
+});
+
+// Enhanced form submission with better error handling
+contactForm.addEventListener('submit', async function(e) {
+    e.preventDefault();
+
+    console.log('Form submission started...');
+
+    // Validate all fields
+    let isValid = true;
+    const invalidFields = [];
+    
+    formInputs.forEach(input => {
+        if (input && !validateField(input)) {
+            isValid = false;
+            invalidFields.push(input.name || 'unknown');
+        }
+    });
+
+    // Also validate phone separately if it exists
+    if (phoneInput && !validateField(phoneInput)) {
+        isValid = false;
+        invalidFields.push('phone');
+    }
+
+    if (!isValid) {
+        console.log('Validation failed for fields:', invalidFields);
+        const firstError = contactForm.querySelector('.form__input.error, .form__select.error, .form__textarea.error');
+        if (firstError) {
+            firstError.focus();
+            firstError.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+        return;
+    }
+
+    // Show loading state
+    const submitButton = contactForm.querySelector('.form__submit');
+    const submitText = submitButton.querySelector('.form__submit-text');
+    
+    if (submitButton) {
+        submitButton.classList.add('loading');
+        submitButton.disabled = true;
+    }
+
+    try {
+        // Collect form data with enhanced phone formatting
+        const formData = new FormData(contactForm);
+        const data = {};
+        
+        for (let [key, value] of formData.entries()) {
+            data[key] = value;
+        }
+
+        // Format phone for backend if phone input exists
+        if (phoneInput && phoneInput.value && phoneInput.value.trim() && countrySelect) {
+            const countryCode = countrySelect.value;
+            const cleanPhone = phoneInput.value.replace(/\D/g, '');
+            
+            data.phone = countryCode + cleanPhone; // E.164 format: +919887699999
+            data.phoneFormatted = phoneInput.value; // Display format: 98876 99999
+            data.phoneCountry = countryCode;
+            data.phoneCountryName = getCountryName(countryCode);
+        }
+
+        // Add metadata
+        data.submittedAt = new Date().toISOString();
+        data.userAgent = navigator.userAgent;
+        data.formVersion = '3.0';
+
+        console.log('Submitting form data:', data);
+
+        // Submit to backend
+        const result = await submitFormToBackend(data);
+        console.log('✅ Form submitted successfully:', result);
+        
+        // Success
+        showSuccessModal();
+        contactForm.reset();
+        
+        // Reset to India if elements exist
+        if (countrySelect) countrySelect.value = '+91';
+        if (phoneInput) phoneInput.placeholder = '98876 99999';
+        
+        // Clear success states
+        document.querySelectorAll('.form__group.success').forEach(group => {
+            if (group) group.classList.remove('success');
+        });
+        
+        clearSavedFormData();
+        trackFormSubmission('success');
+        
+    } catch (error) {
+        console.error('❌ Form submission error:', error);
+        
+        // Show user-friendly error message
+        let errorMessage = 'There was an error sending your request. ';
+        
+        if (error.message.includes('Unable to connect') || error.message.includes('fetch')) {
+            errorMessage += 'Please check your internet connection and try again.';
+        } else if (error.message.includes('Validation failed')) {
+            errorMessage += 'Please check your form data and try again.';
+        } else if (error.message.includes('Too many requests') || error.status === 429) {
+            errorMessage += 'You\'ve submitted too many requests recently. Please wait a moment and try again.';
+        } else {
+            errorMessage += 'Please try again or contact us directly at support@orivanta.in';
+        }
+        
+        alert(errorMessage);
+        trackFormSubmission('error');
+    } finally {
+        // Reset button state
+        if (submitButton) {
+            submitButton.classList.remove('loading');
+            submitButton.disabled = false;
+        }
+    }
+});
+
+// Backend submission function
+async function submitFormToBackend(formData) {
+    const API_URL = 'https://your-backend-domain.vercel.app/api/contact/submit';
+    
+    try {
+        console.log('Submitting to backend:', API_URL);
+        
+        const response = await fetch(API_URL, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(formData)
+        });
+        
+        const result = await response.json();
+        console.log('Backend response:', result);
+        
+        if (!response.ok) {
+            throw new Error(result.message || `HTTP error! status: ${response.status}`);
+        }
+        
+        return result;
+    } catch (error) {
+        console.error('Backend submission error:', error);
+        
+        if (error.message.includes('fetch') || error.name === 'TypeError') {
+            throw new Error('Unable to connect to server. Please check if the backend is running on http://localhost:5000');
+        }
+        
+        throw error;
+    }
+}
+
+// Modal functions
+function showSuccessModal() {
+    const modal = document.getElementById('successModal');
+    if (modal) {
+        modal.classList.add('show');
+        document.body.style.overflow = 'hidden';
+        
+        setTimeout(() => {
+            closeSuccessModal();
+        }, 8000);
+    } else {
+        alert('Thank you! Your message has been sent successfully. We\'ll get back to you soon.');
+    }
+}
+
+function closeSuccessModal() {
+    const modal = document.getElementById('successModal');
+    if (modal) {
+        modal.classList.remove('show');
+        document.body.style.overflow = 'auto';
+    }
+}
+
+// Utility functions
+function clearSavedFormData() {
+    try {
+        localStorage.removeItem('orivanta_ai_demo_form');
+    } catch (error) {
+        console.warn('Unable to clear saved form data');
+    }
+}
+
+function trackFormSubmission(status) {
+    console.log(`Form submission tracked: ${status}`);
+}
+
+// Test backend connection
+async function testBrevoBackendConnection() {
+    try {
+        const response = await fetch('https://your-backend-domain.vercel.app/health');
+        if (response.ok) {
+            console.log('✅ Backend ready');
+        } else {
+            console.warn('⚠️ Backend health check failed');
+        }
+    } catch (error) {
+        console.warn('⚠️ Backend not reachable');
+    }
+}
+
+// Initialize everything when DOM is loaded
+document.addEventListener('DOMContentLoaded', function() {
+    // Initialize phone input
+    initializePhoneInput();
+    
+    // Modal event listeners
+    const modal = document.getElementById('successModal');
+    if (modal) {
+        modal.addEventListener('click', (e) => {
+            if (e.target.classList.contains('success-modal')) {
+                closeSuccessModal();
+            }
+        });
+        
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && modal.classList.contains('show')) {
+                closeSuccessModal();
+            }
+        });
+    }
+});
+
+// Test connection on page load
+window.addEventListener('load', testBrevoBackendConnection);
+
+console.log('Enhanced contact form with phone formatting loaded successfully');
+
+        
+</script>
+
+
+</body>
+</html>
