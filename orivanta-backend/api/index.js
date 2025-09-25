@@ -6,7 +6,6 @@ const { RateLimiterMemory } = require('rate-limiter-flexible');
 require('dotenv').config();
 
 const app = express();
-const PORT = process.env.PORT || 5000;
 
 // Security middleware
 app.use(helmet());
@@ -55,7 +54,7 @@ app.get('/health', (req, res) => {
 });
 
 // Load contact routes
-const contactRoutes = require('./routes/contact');
+const contactRoutes = require('../routes/contact');
 
 // Contact form routes
 app.use('/api/contact', rateLimiterMiddleware, contactRoutes);
@@ -69,7 +68,7 @@ app.use((err, req, res, next) => {
     });
 });
 
-// FIXED: 404 handler - use a different approach
+// 404 handler
 app.use((req, res) => {
     res.status(404).json({
         success: false,
@@ -81,47 +80,5 @@ app.use((req, res) => {
     });
 });
 
-// FIXED: Start server and test email connection
-// async function startServer() {
-//     try {
-//         const server = app.listen(PORT, () => {
-//             console.log(`🚀 Server running on port ${PORT}`);
-//             console.log(`📧 Email service configured for: ${process.env.EMAIL_TO}`);
-//             console.log(`🌐 CORS origins: ${process.env.CORS_ORIGIN}`);
-//             console.log(`🔗 Health check: http://localhost:${PORT}/health`);
-//             console.log(`📝 Contact API: http://localhost:${PORT}/api/contact/submit`);
-//         });
-
-//         // Test email connection after server starts
-//         try {
-//             const emailService = require('./utils/emailService');
-//             await emailService.testConnection();
-//         } catch (emailError) {
-//             console.error('⚠️  Email service warning:', emailError.message);
-//             console.log('📧 Server will continue running, but email functionality may not work');
-//             console.log('🔧 Please check your .env file configuration');
-//         }
-
-//         // Graceful shutdown
-//         process.on('SIGTERM', () => {
-//             console.log('SIGTERM received. Shutting down gracefully...');
-//             server.close(() => {
-//                 console.log('Process terminated');
-//             });
-//         });
-
-//         process.on('SIGINT', () => {
-//             console.log('SIGINT received. Shutting down gracefully...');
-//             server.close(() => {
-//                 console.log('Process terminated');
-//             });
-//         });
-
-//     } catch (error) {
-//         console.error('❌ Failed to start server:', error);
-//         process.exit(1);
-//     }
-// }
-
-
+// Export the app for Vercel
 module.exports = app;
